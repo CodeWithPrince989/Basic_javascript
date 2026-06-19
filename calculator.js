@@ -25,3 +25,16 @@ console.log(calculateArithmetic(1,2,"minus"));
 console.log(calculateArithmetic(1,2,"multiply"));
 console.log(calculateArithmetic(1,2,"divide"));
 console.log(calculateArithmetic(1,2,"power"));
+
+function great(){
+  console.log("Hello World")
+}
+function greatAlien(){
+  console.log("Hello Alien")
+}
+//setTimeout
+// setTimeout(greatAlien, 3 * 1000)  //greatAlien will be called after 3 seconds
+
+//setInterval
+setInterval(greatAlien, 1 * 1000)   //greatAlien will be called every 1 second
+
